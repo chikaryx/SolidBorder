@@ -1,0 +1,14 @@
+name: SolidBorder
+version: '${project.version}'
+main: net.claimworld.solidborder.Solidborder
+api-version: 1.19
+prefix: SolidBorder
+authors: [ Chikaraa ]
+description: Disables walking behind default world border.
+website: https://claimworld.net
+commands:
+  reload-solidborder:
+    description: Reloads data from config file.
+    usage: /<command>
+    permission: claimworld.solidborder.reload
+

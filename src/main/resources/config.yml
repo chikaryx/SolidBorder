@@ -1,0 +1,15 @@
+settings:
+  #what'll happen when somebody is gonna cross the border?
+  # "none" - nothing
+  # "kill" - player'll be killed
+  # "strike" - player is gonna be hit by a lightning strike
+  penalty: "kill"
+
+  #log border crossing to a player with permission "claimworld.solidborder.broadcast"?
+  #keep this "false" for best efficiency
+  # WARNING! if penalty is set to "none", there's gonna be a lot of messages!
+  broadcast: false
+
+#
+# check https://claimworld.net/ for newest versions of our simple plugins, support & much more
+#
